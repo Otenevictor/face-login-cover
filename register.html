@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="reg-form">
+        <form action="/action_page.php">
+            <label for="firstname"> Firstname</label>
+            <br>
+            <input type="text" id="firstname" class="reg-input" name="Firstname" placeholder="Firstname.." required>
+            <br />
+            <label for="lastname"> Lastname</label>
+            <input type="text" id="lastname" class="reg-input"  name="Lastname" placeholder="Lastname.." required>
+            <br />
+            <label for="number"> Phone no</label>
+            <input type="number" id="number" class="reg-input" name="Phone no" placeholder="Phone no.." required>
+            <br />
+            <label for="mail"> Email Address</label>
+            <input type="text" id="mail"  class="reg-input"name="Email Address" placeholder="Email address.." required>
+            <br />
+            <label for="Gender">Gender</label>
+            <select id="Gender" class="reg-input" name="Gender" required>
+                <option value="frontend">Male</option>
+                <option value="frontend">Female</option>
+                <option value="frontend">Others</option>
+            </select style="text-align:left">
+            <br />
+            <label for="Country"> Country</label>
+            <input type="text" id= "Country" class="reg-input" name="County" placeholder="Country.." required>
+            <br />
+            <label for="state/province"> State/province</label>
+            <input type="text" id="state/province" class="reg-input" name="state/province" placeholder="State/province.." required>
+            <br />
+            <label for="username"> Username</label>
+            <input type="text" id="username"  class="reg-input" name="Username" placeholder="Username.." required>
+            <br />
+            <label for="password">Password</label>
+            <br>
+            <input type="password" class="reg-input" id="password" name="pasword" required placeholder="Enter Password"> 
+            <label for="confirmpasword">ConfirmPassword</label>
+            <br>
+            <input type="password" class="reg-input" id="confirmpasword" name="ConfirmPassword" required placeholder="Enter ConfirmPassword" name="psw" required>
+            <br>
+            <a href="index.html"><button class="reg-btn" id="reg-btn">Create account</button> </a>
+        </form>
+    </div>
+</body>
+</html>

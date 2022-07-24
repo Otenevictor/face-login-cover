@@ -1,0 +1,1 @@
+window.prompt("welcome to facebook");

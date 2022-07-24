@@ -1,0 +1,234 @@
+body{
+    background-color: lightblue;
+    
+}
+
+.animation {
+    float: right;
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    animation-name: vic;
+    animation-duration: 10s;
+    transform: rotate(div);
+}
+
+@keyframes vic {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+.rotate {
+    float: left;
+    /* margin-top: 20px; */
+    border: 16px solid white;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-left: 16px solid white;
+    border-right: 16px solid  red;
+    border-bottom: 16px solid green;
+    height: 90px;
+    width: 90px;
+    -webkit-animation: spin 10s linear infinite;
+}
+
+.rotate-container{
+width: 130px;
+height: 150px;
+}
+
+
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform:
+            rotate(360deg);
+    }
+}
+
+.face {
+    background-color: lightblue;
+    /* float: right; */
+    margin: auto;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.fone {
+    margin-bottom: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.ftwo {
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: antiquewhite;
+    text-decoration: dashed;
+}
+
+.login{
+    background-color: teal;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.log-div{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    padding-left: 50px;
+    margin: auto;
+}
+.log-input{
+    width: 250px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.log-btn{
+    background-color: aquamarine;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.reg-form{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    padding-left: 50px;
+    margin: auto;
+}
+.reg-input{
+    width: 250px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.reg-btn{
+    background-color: aquamarine;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+img {
+    align-items: center;
+    height: 80px;
+    width: 120px;
+}
+
+.form {
+    background-color: white;
+    padding: 10px;
+}
+
+.one {
+    color: gray;
+    border: 2px solid orange;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.two {
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.three {
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.four {
+    background-color: white;
+    color: grey;
+    border: 2px solid white;
+    border-bottom-color: gray;
+    text-align: center;
+
+
+}
+
+.five {
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: 2px solid darkgreen;
+    text-align: center;
+
+}
+
+.six {
+    color: grey;
+
+}
+
+.seven {
+    background-color: lightblue;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 800px)
+ { .rotate-container{
+     width: 100%;
+     height: 120px;
+     display: flex;
+     justify-content: center;
+ }
+  /* .rotate{ 
+     margin:10px auto;
+
+ } */
+.animation{
+    width: 100%;
+    height: 100px;
+}
+p{
+    text-align: center;
+}
+    
+}
